@@ -11,7 +11,7 @@ public class RestaurantManagementSystem {
             System.out.println("\n1. Add Dish\n2. Update Price\n3. Remove Dish\n4. Display Menu\n5. Place Order\n6. Exit");
             System.out.print("Enter choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
