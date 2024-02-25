@@ -1,0 +1,6 @@
+public abstract class Dish {
+    protected String name;
+    protected double price;
+
+    public abstract void prepare();
+}
